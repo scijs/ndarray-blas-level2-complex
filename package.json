@@ -1,0 +1,33 @@
+{
+  "name": "ndarray-blas-level2-complex",
+  "version": "1.0.0",
+  "description": "BLAS Level 2 operations for complex ndarrays",
+  "main": "index.js",
+  "author": "Ricky Reusser",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scijs/ndarray-blas-level2-complex.git"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": "jshint **.js"
+  },
+  "keywords": [
+    "blas",
+    "ndarray",
+    "scijs",
+    "linearalgebra"
+  ],
+  "devDependencies": {
+    "chai": "*",
+    "jshint": "*",
+    "mocha": "*",
+    "ndarray": "^1.0.16",
+    "ndarray-complex": "^1.2.2",
+    "ndarray-scratch": "^1.1.1"
+  },
+  "dependencies": {
+    "ndarray-blas-level1-complex": "^1.0.1"
+  }
+}
